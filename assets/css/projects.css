@@ -1,0 +1,44 @@
+.projects {
+}
+.projects__container {
+}
+.project__radio__btn {
+  margin-bottom: 30px;
+}
+.radio__btn {
+}
+.btn-primary {
+}
+.btn-secondary {
+}
+.projects__list {
+}
+.project__item {
+  height: 360px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  grid-column: span 4;
+}
+.project {
+  height: 360px;
+  background-color: var(--color-bg-secondary);
+  padding: 10px;
+}
+.project__title {
+  margin-bottom: 10px;
+  color: var(--color-primary);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.project__img {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 215px;
+}
+.pr-inf {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.prinff {
+  flex: 1;
+}

@@ -1,0 +1,52 @@
+@media screen and (max-width: 600px) {
+  /* general */
+  [class*='__container'] {
+    max-width: 530px;
+    margin: 0 auto;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  /* general */
+  /* header */
+  .header {
+    /* display: none; */
+  }
+  .header__nav {
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    padding: 50px;
+    flex-direction: column;
+    background-color: var(--color-primary);
+  }
+  .header__list {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .nav__link{
+    color: white !important;
+    font-size: 2rem;
+  }
+
+  .header__btn-burger_btn {
+    display: block;
+  }
+  /* header */
+  /* hero */
+  .hero__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* .header__btn-burger_btn{
+    position: fixed;
+    z-index: 99;
+    top: 50px;
+    right: 50px;
+  } */
+}
