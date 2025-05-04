@@ -35,10 +35,18 @@ services.forEach(card => {
 
 const burger = document.querySelector('.header__btn-burger_btn')
 const nav = document.querySelector('.header__nav')
+const navLinks = document.querySelectorAll('.nav__link');
 
 function burgerMenu() {
   burger.classList.toggle('burger-active');
   nav.classList.toggle('nav-active');
 }
+
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+      burger.classList.remove('burger-active');
+      nav.classList.remove('nav-active');
+  });
+});
 burger.addEventListener('click', burgerMenu);
 // бургер меню 
